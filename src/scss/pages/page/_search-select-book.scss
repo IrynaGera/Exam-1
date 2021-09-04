@@ -1,0 +1,55 @@
+.search-select-book {
+    padding: 80px 0 120px 0;
+    background-color: $dark-grey;
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+
+    @include respond-to('tablet-big') {
+        background-position: 50% 3%;
+    }
+
+    @include respond-to('tablet') {
+        background-size: 0%;
+    }
+
+    @include respond-to('mobile') {
+        background-size: 0%;
+        padding: 40px 0 60px 0;
+    }
+   
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    &__icon-holder {
+        width: 100px;
+        background: #333;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+    i {
+        font-size: 60px;
+        margin-bottom: 45px;
+        text-overflow: ellipsis;
+    }
+
+    &__holder {
+        text-align: center;
+    }
+
+    &__title {
+        color: $white-grey;
+        font-family: $aleo;
+        font-size: 36px;
+        font-weight: 400;
+        font-style: normal;
+        padding-top: 35px;
+
+        @include respond-to('mobile') {
+            padding-bottom: 30px;
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.footer {
+    padding: 115px 0 45px 0;
+    background-color: $light-black;
+
+    @include respond-to('tablet') {
+        padding: 80px 0 35px 0;
+    }
+
+    @include respond-to('mobile') {
+        padding: 60px 0 25px 0;
+    }
+
+    &__title-holder {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    &__link {
+        margin-bottom: 20px;
+    }
+
+   &__logo {
+       margin: 0 auto;
+   }
+
+    &__moto {
+        color: $white;
+        font-family: $josefin;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    &__social-network {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &__social-item {
+        padding: 0 10px;
+    }
+    
+    i {
+        color: $white;
+    }
+    
+    i:hover {
+       color: $purple;
+    }
+}

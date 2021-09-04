@@ -1,0 +1,129 @@
+.what-our-tourist-say {
+    padding: 125px 0 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include respond-to('tablet') {
+        padding: 80px 0 70px 0;
+    }
+
+    @include respond-to('mobile') {
+        padding: 60px 0 50px 0;
+    }
+
+    &__title-holder {
+        margin-bottom: 100px;
+        text-align: center;
+
+        &_title {
+            color: $white;
+            font-family: $aleo;
+            font-size: 36px;
+            font-weight: 400;
+            font-style: normal;
+        }
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &__image-holder {
+
+        @include respond-to('tablet-big') {
+            width: 445px;
+        }
+
+        @include respond-to('tablet') {
+            width: 445px;
+        }
+
+        @include respond-to('mobile') {
+            width: 265px;
+        }
+    }
+
+    &__image-description {
+        min-width: 445px;
+
+        @include respond-to('tablet-big') {
+            height: 445px;
+        }
+    }
+
+    &__text-holder {
+        background-color: $dark-grey;
+        min-width: 665px;
+
+        @include respond-to('tablet-big') {
+            min-width: 445px;
+        }
+
+        @include respond-to('tablet') {
+            min-width: 445px;
+        }
+
+        @include respond-to('mobile') {
+            min-width: 265px;
+        }
+    }
+
+    &__authors-name {
+        color: $light-white;
+        font-family: $josefin;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        padding: 50px 0 30px 60px;
+
+        @include respond-to('tablet') {
+            padding: 50px 15px 60px;
+            text-align: center;
+        }
+
+        @include respond-to('mobile') {
+            padding: 50px 15px 60px;
+            text-align: center;
+        }
+    }
+
+    &__comment {
+        width: 551px;
+        color: $white-grey;
+        font-family: $josefin;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 26px;
+        padding-left: 60px;
+
+        @include respond-to('tablet-big') {
+            width: 540px;
+            padding-bottom: 10px;
+            
+        }
+
+        @include respond-to('tablet') {
+            width: 351px;
+            padding: 0 15px 30px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        @include respond-to('mobile') {
+            width: 251px;
+            padding: 0 15px 30px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+
+    &__quote:before {
+      content: "“";
+      font-size: 45px;
+      color: $purple;
+    }
+} 

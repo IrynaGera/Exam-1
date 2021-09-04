@@ -1,0 +1,214 @@
+.why-choose-us {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 120px 0;
+
+    @include respond-to('tablet-big') {
+        padding: 100px 0;
+    }
+
+    @include respond-to('tablet') {
+        padding: 80px 0;
+    }
+
+    @include respond-to('mobile') {
+        padding: 60px 0;
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        @include respond-to('tablet-big') {
+            justify-content: center;
+        }
+
+        @include respond-to('tablet') {
+            justify-content: center;
+        }
+
+        @include respond-to('mobile') {
+           justify-content: center;
+        }
+    }
+
+    &__column-first {
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+
+        @include respond-to('tablet-big') {
+           align-items: center;
+            padding: 0 10px 0;
+        }
+
+        @include respond-to('tablet') {
+            align-items: center;
+            padding: 0 10px 0;
+        }
+
+        @include respond-to('mobile') {
+           align-items: center;
+           padding-top: 0px;
+           
+        }
+    }
+
+    &__title-description {
+        color: $white;
+        font-family: $aleo;
+        font-size: 36px;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 70px;
+
+        @include respond-to('tablet-big') {
+            margin-bottom: 50px;
+            font-size: 30px;
+        }
+
+        @include respond-to('tablet') {
+            margin-bottom: 40px;
+            font-size: 26px;
+        }
+
+        @include respond-to('mobile') {
+           margin-bottom: 35px;
+           font-size: 18px;
+        }
+    }
+
+    &__text-holder {
+        width: 530px;
+        color: $white-grey;
+        font-family: $josefin;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 26px;
+
+        @include respond-to('tablet-big') {
+            width: 510px;
+            text-align: center;
+        }
+
+        @include respond-to('tablet') {
+            width: 330px;
+            text-align: center; 
+        }
+
+        @include respond-to('mobile') {
+           width: 230px;
+           text-align: center;
+           font-size: 14px;
+        }
+
+        &_first-paragraph {
+            margin-bottom: 40px;
+
+            @include respond-to('tablet-big') {
+                margin-bottom: 40px;
+            }
+
+            @include respond-to('tablet') {
+                margin-bottom: 30px;
+            }
+
+            @include respond-to('mobile') {
+                margin-bottom: 20px;
+            }
+        }
+
+        &_second-paragraph {
+            margin-bottom: 50px;
+
+            @include respond-to('tablet-big') {
+                margin-bottom: 45px;
+            }
+
+            @include respond-to('tablet') {
+                margin-bottom: 35px;
+            }
+
+            @include respond-to('mobile') {
+                margin-bottom: 25px;
+            }
+        }
+    }
+
+    &__link-holder {
+        margin-bottom: 20px;       
+    } 
+
+    &__description {
+        width: 225px;
+        color: $white;
+        font-family: $aleo;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        padding: 24px 0;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        text-transform: uppercase;
+
+        &:hover {
+            color: $dark-grey;
+        }
+
+        @include respond-to('tablet-big') {
+           font-size: 16px;
+        }
+
+        @include respond-to('tablet') {
+            font-size: 16px;
+        }
+
+        @include respond-to('mobile') {
+            font-size: 14px;
+            width: 150px;
+        }
+    }
+
+    &__column-second {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-end;
+
+        @include respond-to('tablet-big') {
+            align-items: center;
+            padding: 0 10px 0;
+        }
+
+        @include respond-to('tablet') {
+            align-items: center;
+            padding: 0 10px 0;
+        }
+
+        @include respond-to('mobile') {
+           align-items: center;
+        }
+    }
+
+    &__image {
+        padding: 0 125px 5px 0;
+        min-width: 350px;
+
+        @include respond-to('tablet-big') {
+            padding: 0 0 10px 0;
+        }
+
+        @include respond-to('tablet') {
+            padding: 0 0 10px 0;
+        }
+
+        @include respond-to('mobile') {
+           padding: 0 0 10px 0;
+           min-width: 150px;
+        }
+    }  
+}

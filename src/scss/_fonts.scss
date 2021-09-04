@@ -1,0 +1,35 @@
+@import "vars";
+@font-face {
+    font-family: 'Aleo';
+    src: url('../fonts/Webfont-Kit/Bold/aleo-bold-webfont.eot');
+    src: url('../fonts/Webfont-Kit/Bold/aleo-bold-webfont.woff2') format('woff2'),
+         url('../fonts/Webfont-Kit/Bold/aleo-bold-webfont.woff') format('woff'),
+         url('../fonts/Webfont-Kit/Bold/aleo-bold-webfont.ttf') format('truetype'),
+         url('../fonts/Webfont-Kit/Bold/aleo-bold-webfont.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aleo';
+    src: url('../fonts/Webfont-Kit/Regular/aleo-regular-webfont.eot');
+    src: url('../fonts/Webfont-Kit/Regular/aleo-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Webfont-Kit/Regular/aleo-regular-webfont.woff') format('woff'),
+         url('../fonts/Webfont-Kit/Regular/aleo-regular-webfont.ttf') format('truetype'),
+         url('../fonts/Webfont-Kit/Regular/aleo-regular-webfont.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Josefin_Sans';
+    src: url("../fonts/Josefin_Sans/static/JosefinSans-Bold.ttf");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Josefin_Sans';
+    src: url("../fonts/Josefin_Sans/static/JosefinSans-Regular.ttf");
+    font-style: normal;
+    font-weight: 700;
+}
